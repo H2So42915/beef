@@ -37,7 +37,7 @@ RSpec::Core::RakeTask.new(:bs) do |task|
     Rake::Task['browserstack'].invoke
     Rake::Task['browserstack'].reenable
   end
-end
+end  
 
 ################################
 # SSL/TLS certificate
